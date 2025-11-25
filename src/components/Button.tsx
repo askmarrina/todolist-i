@@ -2,7 +2,7 @@ type Props = {
     title: string;
     onClick: () => void;
     className?: string;
-
+    id?: string
 };
 
 export const Button = ({ title, onClick, className}: Props) => {

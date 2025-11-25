@@ -1,8 +1,8 @@
 import './App.css'
-import { Todolist, TasksType } from "./components/Todolist.tsx";
+import {Todolist, TasksType, FilterValueType} from "./components/Todolist.tsx";
 import { useState } from "react";
 import { v1 } from "uuid";
-import { FilterValueType } from "./components/Todolist.tsx";
+
 
 function App() {
     type TodoListType = {

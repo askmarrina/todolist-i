@@ -1,4 +1,4 @@
-import { FilterValueType } from "../App.tsx";
+
 import { ChangeEvent, KeyboardEvent, useState } from "react";
 import { Button } from "./Button.tsx";
 
@@ -7,6 +7,8 @@ export type TasksType = {
     title: string;
     isDone: boolean;
 };
+
+export type FilterValueType = 'All' | 'Active' | 'Completed';
 
 type TodolistProps = {
     id: string;
